@@ -1,0 +1,44 @@
+Question 1)   Who is credited with the REST approach to web services?
+
+solution)     Roy Fielding
+
+Question 2)   What Python library do you have to import to parse and handle JSON?
+
+solution)     import json
+
+Question 3)   Which of the following is a web services approach used by the Twitter API?
+
+solution)     REST
+
+Question 4)   What kind of variable will you get in Python when the following JSON is parsed:
+              { "id" : "001",
+                "x" : "2",
+                "name" : "Chuck"
+              }
+
+solution)     A dictionary with three key / value pairs
+
+Question 5)   Which of the following is not true about the service-oriented approach?
+
+solution)     An application runs together all in one place
+
+Question 6)   Which of these two web service approaches is preferred in most modern service-oriented applications?
+
+solution)     REST - Representational state transfer
+
+Question 7)   What library call do you make to append properly encoded parameters to the end of a URL like the following:
+              http://maps.googleapis.com/maps/api/geocode/json?sensor=false&address=Ann+Arbor%2C+MI
+
+solution)     urllib.parse.urlencode()
+
+Question 8)   What happens when you exceed the Google geocoding API rate limit?
+
+solution)     You cannot use the API for 24 hours
+
+Question 9)   What protocol does Twitter use to protect its API?
+
+solution)     OAuth
+
+Question 10)  What header does Twitter use to tell you how many more API requests you can make before you will be rate limited?
+
+solution)     x-rate-limit-remaining
