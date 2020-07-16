@@ -1,0 +1,74 @@
+Question 1)   What is the name of the Python 2.x library to parse XML data?
+
+solution)     xml.etree.ElementTree
+
+Question 2)   What is the method to cause Python to parse XML that is stored in a string?
+
+solution)     fromstring()
+
+Question 3)   In this XML, which are the "complex elements"?
+              <people>
+                  <person>
+                     <name>Chuck</name>
+                     <phone>303 4456</phone>
+                  </person>
+                  <person>
+                     <name>Noah</name>
+                     <phone>622 7421</phone>
+                  </person>
+              </people>
+
+solution)     -phone
+              -name
+
+Question 4)   In the following XML, which are attributes?
+              <person>
+                <name>Chuck</name>
+                <phone type="intl">
+                   +1 734 303 4456
+                </phone>
+                <email hide="yes" />
+              </person>
+
+solution)     -hide
+              -type
+
+Question 5)   In the following XML, which node is the parent node of node e
+              <a>
+                <b>X</b>
+                <c>
+                  <d>Y</d>
+                  <e>Z</e>
+                </c>
+              </a>
+
+solution)     c
+
+Question 6)   Looking at the following XML, what text value would we find at path "/a/c/e"
+              <a>
+                <b>X</b>
+                <c>
+                  <d>Y</d>
+                  <e>Z</e>
+                </c>
+              </a>
+
+solution)     Z
+
+Question 7)   What is the purpose of XML Schema?
+
+solution)     To establish a contract as to what is valid XML
+
+Question 8)   If you were building an XML Schema and wanted to limit the values allowed in an xs:string field to only those in a particular list,
+              what XML tag would you use in your XML Schema definition?
+
+solution)     xs:sequence
+
+Question 9)   What does the "Z" mean in this representation of a time:
+              2002-05-30T09:30:10Z
+
+solution)     This time is in the UTC timezone
+
+Question 10)  Which of the following dates is in ISO8601 format?
+
+solution)     2002-05-30T09:30:10Z
